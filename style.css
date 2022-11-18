@@ -1,0 +1,46 @@
+
+h3{
+    color: darkslateblue;
+    padding: 0%;
+    margin-bottom: 4%;
+}
+
+input[type=email], input[type=password]{
+    padding: 12px 20px;
+    margin: 10px 0;
+    margin-bottom: 3%;
+    display:flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 50%;
+  }
+input[type=submit]{
+      color:white;
+      display:flex;
+      background-color:darkslateblue;
+      padding: 2%;
+      margin-top: 20px;
+      width: 30%;
+      
+  }
+  ::placeholder{
+    color: darkslateblue;
+  }
+  .text1,.text2{
+    width: 19%;
+    border: 1px solid #ccc;
+    padding: 12px 17px;
+
+}
+  .container{
+    width: 50%;
+    height: auto;
+    border-right: 10px;
+    float: left;
+  }
+  .container2{
+    border: 2px 1px;
+    width: 50%;
+    float: right;
+    height: 24px;
+  }
